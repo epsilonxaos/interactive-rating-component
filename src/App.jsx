@@ -33,7 +33,7 @@ function App() {
 	}
 
 	return (
-		<div className="h-screen bg-[#121417] grid place-content-center font-overpass">
+		<main role="main" className="h-screen bg-[#121417] grid place-content-center font-overpass">
 			{/* Card de puntuacion */}
 			<div className={`w-full max-w-[410px] bg-[#252d37] p-[35px] h-full max-h-[420px] text-[15px] rounded-3xl ${thx ? 'hidden' : ''}`}>
 				<div className="h-[47px] w-[47px] rounded-full bg-[rgba(255,255,255,0.07)] flex items-center justify-center mb-7">
@@ -60,7 +60,7 @@ function App() {
 				<h1 className="mb-3 text-white font-bold text-[26px]">Thanks you</h1>
 				<p className="text-[#959eac] leading-6 mb-6">We appreciate you taking the time to give a rating. If you ever need more support, don't hesitate to get in touch!</p>
 			</div>
-		</div>
+		</main>
 	)
 }
 
