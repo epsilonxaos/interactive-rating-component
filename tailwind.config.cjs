@@ -5,7 +5,11 @@ module.exports = {
     "./src/**/*.{js,ts,jsx,txs}"
   ],
   theme: {
-    extend: {},
+    extend: {
+		fontFamily: {
+			'overpass': ['Overpass', 'sans-serif']
+		}
+	},
   },
   plugins: [],
 }
